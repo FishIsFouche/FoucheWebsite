@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dongle', sans-serif;
+}
+body{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;   
+}
+/*Header*/
+#Credit{
+    color: #fff;
+    text-align: left;
+    font-size: 20px;
+}
+h1#Welcome{
+    color: #dc143c;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 0px
+}
+.Navigation ul{
+    margin-top: 0px;
+    text-align: center;
+    padding-inline: 200px;
+    background-color: #2f2f2f;
+    position: sticky;
+}
+.Navigation ul li{
+    display: inline-block;
+    padding-inline: 10px;
+}
+.Navigation ul li a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+.Navigation ul li a:hover{
+    transition: 0.5s;
+    color: #dc143c;
+    font-size: 40px;
+    border: 40px #dc143c;
+}
+p#Summary{
+    text-align: center;
+    color: #dc143c;
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+#AboutText{
+    font-size: 40px;
+    color: azure;
+}
+
+/*Footer*/
+
+h1#SocialTag{
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+}
+.LIN{
+    text-align: center;
+    border-radius: 35px; 
+    padding-right: 150px;
+}
+.LIN img{
+    position: absolute;
+    transition: 0.5s all;
+}
+.Linkedin:hover{
+    opacity: 0;
+}
+.INS{
+    text-align: center;
+    border-radius: 35px;
+}
+.INS img{
+    position: absolute;
+    transition: 0.5s all;   
+}
+.Instagram:hover{
+    opacity: 0;
+}
+.FCB{
+    text-align: center;
+    border-radius: 35px;
+    padding-left: 150px;
+}
+.FCB img{
+    position: absolute;
+    transition: 0.5s all;
+}
+.Facebook:hover{
+    opacity: 0;
+}
+.SocialLinks{
+    margin-right: 50px;
+}
+.Footer{
+    transition: 0.5s;
+    margin-top: 250px;
+    margin-bottom: 50px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-bottom: 100px;
+    border-radius: 50px;
+    background-color: #2f2f2f;
+    color: #dc143c;
+    border: 5px solid #dc143c;
+}
+.Footer:hover{
+    transition: 0.5s;
+    background-color: #dc143c;
+    color: #fff;
+    border-radius: 25px;
+    border: 5px solid #fff;
+}
+
+/*Body*/ 
+
+h1#CvLink{
+    color: #dc143c;
+    font-size: 75px;
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 0px 
+}
+#CVIcon{
+    transition: 0.5s;
+    display: block;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+}
+#CVIcon:hover{
+    transition: 0.5s;
+    height: 150px;
+    width: 150px;
+}
